@@ -8,40 +8,35 @@ public class Main {
         double doublefr = 2.3213d;
         char charfr = 'q';
         boolean frornot = false;
-        System.out.println(calculateSome(1, 2, 3, 4));
-        System.out.println(isSumBiggerThanTwenty(9, 17));
+        System.out.println(calculateIt(1, 2, 3, 4));
+        System.out.println(isItBiggerFrOrNot(9, 17));
         isNegative(-1);
         System.out.println(isNegativeRevert(-1));
         greetings("Andrew");
         isYearLeap(2002);
     }
   
-  //2 задание  
+  //3 задание  
   public static double calculateIt(double a, double b, double c, double d) {
           return a * ( b + ( c / d ) );
       }
   
-  //3 задание
+  //4 задание
   public static boolean isItBiggerFrOrNot(double a, double b) {
           return a + b > 20;
       }
   
-  //4 задание
+  //5 задание
   public static void isNegative(int value) {
           if (value >= 0) System.out.println("PositiveFr");
           else System.out.println("NegativeFr");
       }
   
-  //5 задание
+  //6 задание
   public static boolean isNegativeRevert(int value) {
           return value < 0;
       }
   
-  //6 задание
-  public static void greetings(String name) {
-          System.out.println("Hello, " + name + "!");
-      }
-   
   //7 задание
   public static void greetings(String name) {
         System.out.println("Hi, " + name + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
